@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 body {
   margin: 0px
 }
@@ -11,26 +15,60 @@ body {
   font-size: 150%;
 }
 
-.aboutMe {
-  background-color: #f4db86;
-  color: black;
-  padding: 5em;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 150%;
-  letter-spacing: 0.5px;
 
+
+.aboutMe {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5em;
+  font-size: 150%;
+}
+
+p {
+  max-width: 70%;
+  margin: auto;
 }
 
 .aboutMeBorder {
-  width: 70%;
-  height: 2px;
+  width: 50%;
+  height: 1px;
   margin: auto;
-  background: black;
+  margin-top: 30px;
+  background: white;
 }
 
 .links {
-  background-color: #380b4f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.leftSide {
   color: white;
-  padding: 5em;
+  padding: 2em;
+  padding-bottom: 3em;
+  text-align: center;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  padding: 2em;
+  text-align: left;
+  font-size: 150%;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 20em;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:link {
+  color: lightblue;
+  text-decoration: none;
 }
