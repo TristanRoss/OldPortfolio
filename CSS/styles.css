@@ -1,0 +1,36 @@
+body {
+  margin: 0px
+}
+
+.top {
+  background-color: black;
+  color: white;
+  padding: 5em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+.aboutMe {
+  background-color: #f4db86;
+  color: black;
+  padding: 5em;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 150%;
+  letter-spacing: 0.5px;
+
+}
+
+.aboutMeBorder {
+  width: 70%;
+  height: 2px;
+  margin: auto;
+  background: black;
+}
+
+.links {
+  background-color: #380b4f;
+  color: white;
+  padding: 5em;
+}
