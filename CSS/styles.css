@@ -6,13 +6,26 @@ body {
   margin: 0px
 }
 
+
 .top {
   background-color: black;
-  color: white;
+  color: white;    
   padding: 5em;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 150%;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .top {
+    /*background-color: black;
+    color: white;
+    padding: 5em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;*/
+    padding: 2em;
+    font-size: 0.8em;
+  }
 }
 
 
@@ -20,20 +33,30 @@ body {
 .aboutMe {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  padding: 5em;
-  font-size: 150%;
+  padding: 3em;
+  font-size: 1.5em;
+  text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .aboutMe {
+    font-size: 1em;
+    padding: 2em;
+  }
+}
+
+/*
 p {
   max-width: 70%;
   margin: auto;
 }
+*/
 
 .aboutMeBorder {
   width: 50%;
   height: 1px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   background: white;
 }
 
@@ -45,23 +68,44 @@ p {
 .leftSide {
   color: white;
   padding: 2em;
-  padding-bottom: 3em;
+  font-size: 1.5em;
+  /*padding-bottom: 3em;*/
   text-align: center;
   
 }
 
+@media only screen and (max-width: 600px) {
+  .leftSide {
+    padding: 1em;
+  }
+}
+
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 span {
-  padding: 2em;
-  text-align: left;
-  font-size: 150%;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
   border: 1px;
   border-style: solid;
   border-color: white;
-  margin-left: 20em;
+
+}
+
+@media only screen and (max-width: 600px) {
+  span {
+    padding: 1em;
+    font-size: 1em;
+
+
+  }
+}
+
+.itemWrapper {
+  text-align: center;
 }
 
 a:visited {
